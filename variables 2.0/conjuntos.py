@@ -6,4 +6,12 @@ conjunto = set(["Dato 1"])
 conjunto1 = frozenset(["dato 1", "dato 2"])
 conjunto2 ={conjunto1, "dato 3"}
 
-print(conjunto2)
+#Teoria de conjuntos
+conjunto1 = {1,3,5,7}
+conjunto2 = {1,3,7}
+
+#verificando si un subconjunto
+resultado = conjunto2.issubset(conjunto1)
+resultado = conjunto2 <= conjunto1
+
+print(resultado)
