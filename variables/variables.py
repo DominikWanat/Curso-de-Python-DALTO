@@ -1,6 +1,4 @@
-a = 5
-b = 8
-c = a + b
+nombre = 5
+bienvenida = f"Hola {nombre} ¿Como estas?"
 
-print (c)
-
+print(bienvenida)
